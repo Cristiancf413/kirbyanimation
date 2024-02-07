@@ -53,3 +53,37 @@
 .espacio {
     padding-bottom: 100px;
 }
+
+/*puesta en escena */
+
+.kirby{
+    height: 300px;
+    width: 300px;
+    animation: bajar 3s infinite linear;
+}
+
+@keyframes bajar{
+    0% {
+        transform: translateY(0%);
+    }
+
+    10% {
+        transform: translateY(10%);
+    }
+
+    20% {
+        transform: translateY(20%);
+    }
+
+    30% {
+        transform: translateY(30%);
+    }
+
+    40% {
+        transform: translateY(40%);
+    }
+
+    50% {
+        transform: translateY(50%);
+    }
+}
